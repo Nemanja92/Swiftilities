@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Swiftilities"
-  s.version          = "0.15.0"
+  s.version          = "0.16.0"
   s.summary          = "A collection of useful Swift utilities."
 
   s.description      = <<-DESC
@@ -49,6 +49,7 @@ Pod::Spec.new do |s|
     ss.dependency 'Swiftilities/Shapes'
 	ss.dependency 'Swiftilities/ImageHelpers'
 	ss.dependency 'Swiftilities/ColorHelpers'
+	ss.dependency 'Swiftilities/Math'
 	ss.frameworks   = ["UIKit"]
   end
 
